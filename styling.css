@@ -1,0 +1,124 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  padding: 0;
+  margin: 0;
+}
+#container {
+  display: flex;
+  background-color: #3b5998;
+  height: 80px;
+  align-items: center;
+  border: 2px solid darkblue;
+}
+#login {
+  display: flex;
+  align-items: center;
+  flex-grow: 7;
+  flex-direction: row-reverse;
+  margin-right: 30px;
+}
+
+.login-box {
+  display: flex;
+  margin-left: 20px;
+  flex-direction: column;
+}
+.login-button {
+  height: 20px;
+  color: white;
+  margin-top: auto;
+  margin-left: 11px;
+  background-color: #5870a3;
+  width: 50px;
+  border: 1px solid rgb(61, 81, 168);
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.login-button:hover {
+  background-color: green;
+}
+
+.right-side {
+  display: flex;
+}
+.message {
+  width: 60%;
+  height: 616px;
+  padding: 4px;
+}
+.rightside-content {
+  width: 40%;
+  height: 616px;
+  padding: 8px 0px;
+}
+.rightside-content h1 {
+  font-size: 2rem;
+  padding: 10px 0px;
+}
+.name {
+  display: flex;
+  padding: 25px 0px 25px 0px;
+}
+#lname {
+  margin-left: 20px;
+  border: 2px solid black;
+}
+.name input {
+  width: 200px;
+  padding: 7px;
+  font-size: medium;
+  border: 2px solid black;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+.contactInfo input {
+  width: 580px;
+  padding: 7px;
+  font-size: medium;
+  border: 2px solid black;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+.contactInfo {
+  flex-direction: column;
+}
+#contact {
+  margin-bottom: 25px;
+}
+
+.dob p {
+  padding: 25px 0px 0px 0px;
+}
+.dropdown {
+  width: 90px;
+  height: 35px;
+  border: 2px solid black;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+.signingUp {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.sign {
+  background: green;
+  font-family: "Times New Roman", Times, serif;
+  padding: 12px;
+  margin-left: 0px;
+  width: 500px;
+  border: 2px solid black;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+.sign:hover {
+  background-color: whitesmoke;
+}
+.footer {
+  display: flex;
+  padding-top: 100px;
+}
